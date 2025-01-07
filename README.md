@@ -20,3 +20,5 @@ A responsive tribute page dedicated to Lisa Su, showcasing her contributions and
 ## Credits
 - Image: Courtesy of Getty Images
 - Information: Compiled from publicly available resources, including Wikipedia.
+
+To be updated.
