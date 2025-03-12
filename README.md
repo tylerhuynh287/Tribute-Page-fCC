@@ -1,5 +1,5 @@
 # Lisa Su Tribute Page
-A responsive tribute page dedicated to Lisa Su, showcasing her contributions and impact on the semiconductor industry. Built as part of a freeCodeCamp project.
+A responsive tribute page dedicated to Lisa Su, showcasing her contributions and impact on the semiconductor industry. Built as part of the freeCodeCamp Responsive Web Design Certification, Project 2. 
 
 ## Features
 - **Informative Content**: Highlights key milestones in Lisa Su's life and career.
