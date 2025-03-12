@@ -14,7 +14,7 @@ A responsive tribute page dedicated to Lisa Su, showcasing her contributions and
 ## How to View
 1. Clone this repository:
    ```bash
-   git clone git@github.com:tylerhuynh287/freeCodeCampProject2.git
+   git clone git@github.com:tylerhuynh287/Tribute-Page-fCC.git
 
 
 ## Credits
