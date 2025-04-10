@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="styles.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A tribute page honoring Lisa Su, CEO of AMD, highlighting her impact on the semiconductor industry.">
   <title>Lisa Su Tribute</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main id="main">
+  <main id="main" role="main" aria-labelledby="title">
     <h1 id="title">Lisa Su</h1>
-    <p>A transformative leader who revitalized AMD and revolutionized the semiconductor industry</p>
+    <p id="description">A transformative leader who revitalized AMD and became a driving force in the semiconductor industry.</p>
 
     <figure id="img-div">
-      <img id="image" src="https://media.gettyimages.com/id/1454311939/photo/las-vegas-hosts-annual-ces-trade-show.jpg?b=1&s=594x594&w=0&k=20&c=PahBJtKlh2PnKViKKjtphCnQXOqRRrdIbQeHipdBcj8=" alt="Lisa Su at a tech conference">
-      <figcaption id="img-caption">Lisa Su at a tech conference.</figcaption>
+      <img id="image" src="https://media.gettyimages.com/id/1454311939/photo/las-vegas-hosts-annual-ces-trade-show.jpg?b=1&s=594x594&w=0&k=20&c=PahBJtKlh2PnKViKKjtphCnQXOqRRrdIbQeHipdBcj8=" alt="Lisa Su at CES tech conference">
+      <figcaption id="img-caption">Lisa Su speaking at CES, a premier global tech conference.</figcaption>
     </figure>
 
     <section id="tribute-info">
-      <h2 id="headline">A timeline of Lisa Su:</h2>
+      <h2 id="headline">Key Moments in Lisa Su's Career</h2>
       <ul>
-        <li><strong>1969</strong> - Born in Tainan, Taiwan, and immigrated to the United States as a child.</li>
-        <li><strong>1991</strong> - Graduated from the Massachusetts Institute of Technology (MIT) with a Bachelor of Science degree in electrical engineering.</li>
-        <li><strong>1994</strong> - Completed her Ph.D. at MIT, specializing in semiconductor devices.</li>
-        <li><strong>1995</strong> - Joined IBM as a research staff member and eventually became the Vice President of Semiconductor Research and Development.</li>
-        <li><strong>2007</strong> - Moved to Freescale Semiconductor as the Chief Technology Officer.</li>
-        <li><strong>2012</strong> - Joined AMD as Senior Vice President and General Manager of Global Business Units.</li>
-        <li><strong>2014</strong> - Appointed as AMD's President and CEO, becoming the first woman to lead a major semiconductor company.</li>
-        <li><strong>2016</strong> - Released AMD's Ryzen processors, marking a turning point for the company and challenging Intel's dominance.</li>
-        <li><strong>2020</strong> - Announced AMD's acquisition of Xilinx for $35 billion, further solidifying the company's position in the semiconductor industry.</li>
-        <li><strong>2021</strong> - Named one of the world's greatest leaders by Fortune and credited with turning AMD into a top competitor in the chip industry.</li>
+        <li><strong>1969:</strong> Born in Tainan, Taiwan; later immigrated to the U.S.</li>
+        <li><strong>1994:</strong> Earned a Ph.D. in Electrical Engineering from MIT, focusing on semiconductor research.</li>
+        <li><strong>1995–2007:</strong> Led cutting-edge semiconductor innovations at IBM, rising to VP of R&D.</li>
+        <li><strong>2012:</strong> Joined AMD as Senior VP, leading global business operations.</li>
+        <li><strong>2014:</strong> Appointed President & CEO of AMD — the first woman to lead a major chipmaker.</li>
+        <li><strong>2017:</strong> Spearheaded the launch of Ryzen and EPYC processors, reestablishing AMD’s market position.</li>
+        <li><strong>2020:</strong> Announced AMD’s $35B acquisition of Xilinx, expanding into data centers and AI.</li>
+        <li><strong>2021:</strong> Recognized by Fortune as one of the world’s greatest leaders for her industry-shifting impact.</li>
       </ul>
-      <h3>More information on Lisa Su at this <a id="tribute-link" href="https://en.wikipedia.org/wiki/Lisa_Su" target="_blank" rel="noopener noreferrer">Wikipedia entry</a>.</h3>
+      <h3>Learn more about Lisa Su on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Lisa_Su" target="_blank" rel="noopener noreferrer">Wikipedia</a>.</h3>
     </section>
+
+    <footer id="tribute-footer">
+      <blockquote>
+        “Leadership is not about being the best. It is about making everyone else better.” – Lisa Su
+      </blockquote>
+    </footer>
   </main>
 </body>
 </html>
