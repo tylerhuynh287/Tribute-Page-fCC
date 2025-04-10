@@ -15,9 +15,9 @@ A responsive tribute page dedicated to Lisa Su, showcasing her contributions and
 1. Clone this repository:
    ```bash
    git clone https://github.com/tylerhuynh287/Tribute-Page-fCC.git
+   cd Tribute-Page-fCC
+   open index.html
 
 ## Credits
 - Image: Courtesy of Getty Images
 - Information: Compiled from publicly available resources, including Wikipedia.
-
-To be updated.
